@@ -5,7 +5,7 @@ terraform {
   backend "s3" {
     bucket = "ismaila-demo-bucket"
     region = "us-east-1" 
-    key = "ismailademo/terraform.tfstate"
+    key = "terraform.tfstate"
     dynamodb_table = "ismaila-demo-dynamodb"
     encrypt = true
   }
