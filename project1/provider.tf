@@ -11,7 +11,7 @@ terraform {
     # the state is store by default in a local file name terraform.tfstate but it can be stores remotely which works better in a team environment. 
     # format in JSON.  #key can any part for tfstate
      #key. referencing to the same terrraform state file in the project.
-   key = "ismailademo/terraform.tfstate"
+   key = "terraform.tfstate"
    dynamodb_table = "ismaila-demo-dynamodb"
     encrypt = true
   }
